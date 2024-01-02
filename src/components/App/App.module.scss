@@ -1,0 +1,9 @@
+@import "@styles/media";
+
+.app {
+  text-align: center;
+
+  @include media("within", "xs") {
+    background-color: red;
+  }
+}

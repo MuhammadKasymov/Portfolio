@@ -2,15 +2,16 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@": ["src/*"],
-      "@Styles": ["src/styles/*"],
-      "@Hooks": ["src/hooks/*"],
-      "@Utils": ["src/utils/*"],
-      "@Types": ["src/types/*"],
-      "@Components": ["src/components/*"],
-      "@Simples": ["src/components/simples/*"],
-      "@Complex": ["src/components/complex/*"],
-      "@SVGR": ["src/components/svgr/*"],
+      "@/*": ["src/*"],
+      "@styles/*": ["src/styles/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@utils/*": ["src/utils/*"],
+      "@types*": ["src/types/*"],
+      "@components/*": ["src/components/*"],
+      "@simples/*": ["src/components/simples/*"],
+      "@complex/*": ["src/components/complex/*"],
+      "@SVGR/*": ["src/components/svgr/*"],
+      "@constants*": ["src/constants/*"]
     }
   }
 }

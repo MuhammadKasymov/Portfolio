@@ -1,0 +1,23 @@
+
+.emptyPage {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  .empty {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      &:first-child {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

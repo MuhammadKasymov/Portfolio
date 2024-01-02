@@ -5,14 +5,15 @@ module.exports = {
   webpack: {
     alias: {
       "@": path.resolve(__dirname, "src/"),
-      "@Styles": path.resolve(__dirname, "src/styles"),
-      "@Hooks": path.resolve(__dirname, "src/hooks"),
-      "@Utils": path.resolve(__dirname, "src/utils"),
-      "@Types": path.resolve(__dirname, "src/types"),
-      "@Components": path.resolve(__dirname, "src/components"),
-      "@Simples": path.resolve(__dirname, "src/components/simples"),
-      "@Complex": path.resolve(__dirname, "src/components/complex"),
+      "@styles": path.resolve(__dirname, "src/styles"),
+      "@hooks": path.resolve(__dirname, "src/hooks"),
+      "@utils": path.resolve(__dirname, "src/utils"),
+      "@types": path.resolve(__dirname, "src/types"),
+      "@components": path.resolve(__dirname, "src/components"),
+      "@simples": path.resolve(__dirname, "src/components/simples"),
+      "@complex": path.resolve(__dirname, "src/components/complex"),
       "@SVGR": path.resolve(__dirname, "src/components/svgr"),
+      "@constants": path.resolve(__dirname, "src/constants"),
     },
   },
 };
