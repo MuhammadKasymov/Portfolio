@@ -1,0 +1,25 @@
+@import "@styles/animation";
+@import "@styles/color";
+
+.container {
+  display: flex;
+  height: 24px;
+  width: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.beamingContainer {
+  background-color: $green;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  animation-name: beam;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  transition: all 0.9s ease;
+}
+
+.greenDot {
+  position: absolute;
+}

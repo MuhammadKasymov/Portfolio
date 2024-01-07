@@ -10,10 +10,11 @@ module.exports = {
       "@utils": path.resolve(__dirname, "src/utils"),
       "@types": path.resolve(__dirname, "src/types"),
       "@components": path.resolve(__dirname, "src/components"),
-      "@simples": path.resolve(__dirname, "src/components/simples"),
+      "@simple": path.resolve(__dirname, "src/components/simple"),
       "@complex": path.resolve(__dirname, "src/components/complex"),
       "@SVGR": path.resolve(__dirname, "src/components/svgr"),
       "@constants": path.resolve(__dirname, "src/constants"),
+      "@icons": path.resolve(__dirname, "src/assets/icons"),
     },
   },
 };

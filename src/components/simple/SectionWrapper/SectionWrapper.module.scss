@@ -1,0 +1,7 @@
+@import "@styles/color";
+@import "@styles/sizes";
+
+.content {
+  padding: 0 $content-padding;
+  background-color: $dark-gray;
+}

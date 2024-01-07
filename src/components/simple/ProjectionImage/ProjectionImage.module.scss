@@ -1,0 +1,29 @@
+@import "@styles/color";
+@import "@styles/sizes";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 280px;
+  height: 320px;
+  object-fit: cover;
+  border: 8px solid $dark-gray;
+  z-index: $middle-z-index;
+}
+
+.projectionContainer {
+  position: absolute;
+}
+.projection {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: $white-transparent;
+  right: -20px;
+  top: 20px;
+  z-index: $lower-z-index;
+}

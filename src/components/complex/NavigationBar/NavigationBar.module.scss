@@ -1,0 +1,72 @@
+@import "@styles/color";
+@import "@styles/sizes";
+@import "@styles/animation";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+
+  top: 0;
+  padding: 1rem $content-padding;
+  border-bottom-width: 1px;
+  background-color: $dark-gray;
+}
+
+.activeContainer {
+  background-color: $dark-gray-transparent;
+  z-index: $higher-z-index;
+}
+
+.logo {
+  color: $white;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.rightItems {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-right: 1rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 1.5rem;
+  padding-inline-start: 0;
+  & > li {
+    list-style: none;
+  }
+  & > li > a {
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: $gray;
+    transition: $hover-transition;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.downloadButton {
+  background-color: $white;
+  border-radius: 1rem;
+  height: min-content;
+  padding: 8px 16px;
+  color: $dark-gray;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  transition: $hover-transition;
+  &:hover {
+    background-color: $gray;
+  }
+}

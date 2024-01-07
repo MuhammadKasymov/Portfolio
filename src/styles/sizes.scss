@@ -1,0 +1,21 @@
+$h-xxl-padding: 80px;
+$h-xl-padding: 24px;
+$h-l-padding: 24px;
+$h-m-padding: 16px;
+$h-s-padding: 24px;
+$h-padding: (
+  "xxl": 24px
+);
+$v-xxl-padding: 60px;
+$v-xl-padding: 24px;
+$v-l-padding: 24px;
+$v-m-padding: 24px;
+$v-s-padding: 24px;
+
+$higher-z-index: 9999;
+$middle-z-index: 5555;
+$lower-z-index: 1;
+$lowest-z-index: -1;
+
+
+$content-padding: calc(50% - 1280px / 2);

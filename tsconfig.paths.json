@@ -8,10 +8,11 @@
       "@utils/*": ["src/utils/*"],
       "@types*": ["src/types/*"],
       "@components/*": ["src/components/*"],
-      "@simples/*": ["src/components/simples/*"],
+      "@simple/*": ["src/components/simple/*"],
       "@complex/*": ["src/components/complex/*"],
       "@SVGR/*": ["src/components/svgr/*"],
-      "@constants*": ["src/constants/*"]
+      "@constants*": ["src/constants/*"],
+      "@icons": ["src/assets/icons/*"]
     }
   }
 }

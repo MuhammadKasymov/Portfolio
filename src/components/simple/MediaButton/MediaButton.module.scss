@@ -1,0 +1,16 @@
+@import "@styles/color";
+
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 32px;
+  width: 32px;
+  border-radius: 14%;
+
+  &:hover {
+    background-color: $white-transparent;
+  }
+}
