@@ -23,7 +23,15 @@
   width: 100%;
   position: relative;
   background-color: $white-transparent;
+  z-index: $lower-z-index;
+}
+
+.projectionRight {
   right: -20px;
   top: 20px;
-  z-index: $lower-z-index;
+}
+
+.projectionLeftLarge {
+  left: -40px;
+  top: 40px;
 }

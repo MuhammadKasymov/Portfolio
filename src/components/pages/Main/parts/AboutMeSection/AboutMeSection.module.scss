@@ -1,0 +1,50 @@
+@import "@styles/color";
+
+.section {
+  background-color: $dark-blue;
+}
+
+.container {
+  padding: 5rem 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 36rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  font-family: Inter;
+  color: $white;
+  text-align: start;
+}
+
+.paragraph {
+  font-family: Inter;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: start;
+}
+
+.imgContainer {
+  position: relative;
+  right: -40px;
+}
+
+.img {
+  width: 384px;
+  height: 464px;
+  border-color: $dark-blue;
+}
